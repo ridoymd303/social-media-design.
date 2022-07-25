@@ -1,0 +1,112 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Open Sans', sans-serif
+}
+h1{
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+	color: red;
+}
+.green{
+	width: 640px;
+	height: 427px;
+	background: green;
+	margin-top: 10px;
+	margin-left: 365px;
+	position: relative;
+}
+.red{
+	width: 200px;
+	height: 200px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	bottom: 25%;
+	left: 33%;
+}
+.green .fb{
+	width: 180px;
+	position: fixed;
+	top: 20%;
+	right: -127px;
+	transition: 1s;
+}
+.green .fb:hover{
+	right: -2px;
+	cursor: pointer;
+}
+.green .instagram{
+	width: 180px;
+	position: fixed;
+	top: 35%;
+	right: -127px;
+	transition: 1s;
+}
+.green .instagram:hover{
+	right: -2px;
+	cursor: pointer;
+}
+.green .telegram{
+	width: 180px;
+	position: fixed;
+	top: 49.5%;
+	right: -127px;
+	transition: 1s;
+}
+.green .telegram:hover{
+	right: -2px;
+	cursor: pointer;
+}
+.green .youtube{
+	width: 180px;
+	position: fixed;
+	top: 64%;
+	right: -127px;
+	transition: 1s;
+}
+.green .youtube:hover{
+	right: -2px;
+	cursor: pointer;
+}
+.social-icons{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 40px 0px;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a{
+	display: block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 30%;
+	background: black;
+	border: 3px solid green;
+	font-size: 25px;
+	margin: 0px 15px;
+	color: red;
+	transition: 1s;
+}
+.social-icons li a:hover{
+	background: red;
+	color: green;
+	border-radius: green;
+}
+.social-icons li a:focus{
+	background: red;
+	color: green;
+	border-radius: green;
+}
